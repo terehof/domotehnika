@@ -45,7 +45,7 @@ module.exports = function(grunt) {
                 // Task-specific options go here.
             },
             all: {
-                src: ["src/css/*.css"],
+                src: ['src/css/fonts.css','src/css/normalize.css','src/css/header.css','src/css/footer.css','src/css/style.css'],
                 dest: "css/style.css"
             }
         },
@@ -55,7 +55,10 @@ module.exports = function(grunt) {
                     paths: ["src/css"]
                 },
                 files: {
-                    "src/css/style.css": "src/less/style.less"
+                    "src/css/fonts.css": "src/less/fonts.less",
+                    "src/css/style.css": "src/less/style.less",
+                    "src/css/header.css": "src/less/header.less",
+                    "src/css/footer.css": "src/less/footer.less"
                 }
             }
         },

@@ -1,2 +1,93 @@
-/*  begin variables  */
-/*  END variables */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+}
+.wrapper {
+  min-width: 1024px;
+}
+.container {
+  max-width: 1160px;
+  min-width: 1024px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.3125;
+  margin-bottom: 0.28125em;
+}
+h2 {
+  font-size: 1.375em;
+  font-weight: 300;
+  line-height: 1.909;
+  margin-bottom: 0.4091em;
+}
+h3 {
+  font-size: 1.125em;
+  font-weight: 300;
+  line-height: 1.1667;
+  margin-bottom: 0.5em;
+}
+h4 {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.3125;
+  margin-bottom: 0.375em;
+}
+p {
+  font-size: 0.8125em;
+  line-height: 1.615;
+  font-weight: 300;
+  color: #444444;
+  margin-bottom: 1.538em;
+}
+a {
+  color: #6f80a5;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.8125em;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+a:hover {
+  color: #f26522;
+}
+.input {
+  box-sizing: border-box;
+  height: 35px;
+  padding: 8px 10px 7px 10px;
+  line-height: 18px;
+  font-size: 0.8125em;
+  color: #444444;
+}
+.label {
+  color: #999999;
+  font-size: 0.8125em;
+  line-height: 1.615;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear {
+  clear: both;
+}
